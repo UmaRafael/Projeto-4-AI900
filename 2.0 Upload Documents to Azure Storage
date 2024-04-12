@@ -1,0 +1,21 @@
+1. In the left-hand menu pane, select Containers.
+
+2. Select + Container. A pane on your right-hand side opens.
+
+3. Enter the following settings, and click Create:
+   Name: coffee-reviews
+   Public access level: Container (anonymous read access for containers and blobs)
+   Advanced: no changes.
+
+4. In a new browser tab, download the zipped coffee reviews from https://aka.ms/mslearn-coffee-reviews, and extract the files to the reviews folder.
+
+5. In the Azure portal, select your coffee-reviews container. In the container, select Upload.
+
+6. In the Upload blob pane, select Select a file.
+
+7. In the Explorer window, select all the files in the reviews folder, select Open, and then select Upload.
+
+8. After the upload is complete, you can close the Upload blob pane. Your documents are now in your coffee-reviews storage container.
+
+
+
