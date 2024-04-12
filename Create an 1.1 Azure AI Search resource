@@ -1,0 +1,12 @@
+1. Sign into the Azure portal.
+
+2. Click the + Create a resource button, search for Azure AI Search, and create a Azure AI Search resource with the following settings:
+
+   Subscription: Your Azure subscription.
+   Resource group: Select or create a resource group with a unique name.
+   Service name: A unique name.
+   Location: Choose any available region.
+   Pricing tier: Basic
+   Select Review + create, and after you see the response Validation Success, select Create.
+
+3. After deployment completes, select Go to resource. On the Azure AI Search overview page, you can add indexes, import data, and search created indexes.
