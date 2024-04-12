@@ -1,0 +1,22 @@
+Let’s see the power of the knowledge store in action. When you ran the Import data wizard, you also created a knowledge store. Inside the knowledge store, you’ll find the enriched data extracted by AI skills persists in the form of projections and tables.
+
+1. In the Azure portal, navigate back to your Azure storage account.
+
+2. In the left-hand menu pane, select Containers. Select the knowledge-store container.
+
+3. Select any of the items, and then click the objectprojection.json file.
+
+4. Select Edit to see the JSON produced for one of the documents from your Azure data store.
+
+5. Select the storage blob breadcrumb at the top left of the screen to return to the Storage account Containers.
+
+6. In the Containers, select the container coffee-skillset-image-projection. Select any of the items.
+
+7. Select any of the .jpg files. Select Edit to see the image stored from the document. Notice how all the images from the documents are stored in this manner.
+
+8. Select the storage blob breadcrumb at the top left of the screen to return to the Storage account Containers.
+
+9. Select Storage browser on the left-hand panel, and select Tables. There’s a table for each entity in the index. Select the table coffeeSkillsetKeyPhrases.
+
+
+Look at the key phrases the knowledge store was able to capture from the content in the reviews. Many of the fields are keys, so you can link the tables like a relational database. The last field shows the key phrases that were extracted by the skillset.
